@@ -19,4 +19,17 @@ from models import User
 with app.app_context():
     db.create_all()
 
+    # create new user
+    # new_user = User(
+    #     username="varshil",
+    #     email="varshil@gmail.com",
+    #     password="1234"
+    # )
+
+    # add user to database session
+    # db.session.add(new_user)
+
+    # save changes
+    # db.session.commit()
+
 print("Database and tables created successfully!")
